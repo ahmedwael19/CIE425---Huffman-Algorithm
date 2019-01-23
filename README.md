@@ -11,19 +11,19 @@ For code details and documentation, please take a look at the Documentation fold
 
 # Algorithm
 1. Convert the stream of symbol into a stream of decimal numbers:
-  a. Get the ascii code for each symbol
+  - Get the ascii code for each symbol
 2. Calculate the entropy using Shannon formula.
 3. Evaluate the run-length code and calculate its efficiency.
 4. Construct the decision tree:
-  a. Sort the probabilities of the alphabet symbols in a descending order.
-  b. Sum the least two probabilities.
-c. Make a binary tree, with the parent is equal to the sum of the least
+  - Sort the probabilities of the alphabet symbols in a descending order.
+  - Sum the least two probabilities.
+  - Make a binary tree, with the parent is equal to the sum of the least
 two probabilities, and the children equal to the two least
 probabilities.
-d. Assign weight = 1 for the edge connecting the parent node and the
+  - Assign weight = 1 for the edge connecting the parent node and the
 smallest number node, and weight = 0 for the edge connecting the
 parent node and the second smallest node.
-e. Repeat the steps from 1 to 4 until there is only one symbol with
+  - Repeat the steps from 1 to 4 until there is only one symbol with
 probability = 1.
 5. Giving weights for each alphabet symbol
 a. For each symbol in the alphabet do the following
