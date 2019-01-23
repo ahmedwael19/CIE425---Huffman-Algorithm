@@ -10,11 +10,11 @@ For code details and documentation, please take a look at the Documentation fold
 
 
 # Algorithm
-1. Convert the stream of symbol into a stream of decimal numbers
+1. Convert the stream of symbol into a stream of decimal numbers:
   a. Get the ascii code for each symbol
 2. Calculate the entropy using Shannon formula.
 3. Evaluate the run-length code and calculate its efficiency.
-4. Construct the decision tree
+4. Construct the decision tree:
   a. Sort the probabilities of the alphabet symbols in a descending order.
   b. Sum the least two probabilities.
 c. Make a binary tree, with the parent is equal to the sum of the least
