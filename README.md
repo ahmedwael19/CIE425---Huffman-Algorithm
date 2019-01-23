@@ -1,5 +1,5 @@
 # CIE425---Huffman-Algorithm
-This program will take a textfile as input and encode it using Huffman lossless algorithm.
+This program will take a text file as input and encode it using Huffman lossless algorithm.
 
 This code is fully developed by Ahmed Wael for the Information Theory and Coding class in Fall 2018.
 
