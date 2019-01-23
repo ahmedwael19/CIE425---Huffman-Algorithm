@@ -11,7 +11,7 @@ For code details and documentation, please take a look at the Documentation fold
 
 # Algorithm
 1. Convert the stream of symbol into a stream of decimal numbers:
-  - Get the ascii code for each symbol
+    - Get the ascii code for each symbol
 2. Calculate the entropy using Shannon formula.
 3. Evaluate the run-length code and calculate its efficiency.
 4. Construct the decision tree:
